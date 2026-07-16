@@ -55,6 +55,13 @@ Contains the normative AMTS specification.
 
 Agents MUST read this specification before working within an unknown AMTS Space.
 
+The file `specification/VERSION.md` declares the version implemented by the
+embedded specification and identifies the public AMTS specification used to
+check for updates. It MUST be read before the remaining specification files.
+
+The embedded specification remains authoritative for its Space until an update
+has been explicitly requested and fully applied as described in `VERSION.md`.
+
 ### projects/
 
 Contains all projects managed by this AMTS Space.

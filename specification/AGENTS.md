@@ -6,15 +6,16 @@ Read the specification files in the order listed below.
 
 ## Required reading order
 
-1. `space.md`
-2. `context.md`
-3. `localcontext.md`
-4. `current.md`
-5. `chats.md`
-6. `projects.md`
-7. `project-structure.md`
-8. `localreferences.md`
-9. `references.md`
+1. `VERSION.md`
+2. `space.md`
+3. `context.md`
+4. `localcontext.md`
+5. `current.md`
+6. `chats.md`
+7. `projects.md`
+8. `project-structure.md`
+9. `localreferences.md`
+10. `references.md`
 
 After reading these files, return to the root of the AMTS Space and read:
 
@@ -30,6 +31,7 @@ After reading these files, return to the root of the AMTS Space and read:
 The specification defines:
 
 * the structure of an AMTS Space,
+* how the embedded specification version is identified and updated,
 * the purpose of its files and directories,
 * how stable shared and local context is maintained,
 * how current work is communicated,
@@ -51,6 +53,11 @@ The terms **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** descri
 The specification contained in the current AMTS Space is authoritative for that Space.
 
 Agents and applications MUST use the current files in `specification/` instead of relying only on previously learned, cached, or remembered AMTS behavior.
+
+`VERSION.md` identifies the version of the embedded specification and the
+public source used to check for explicitly requested updates. A newer public
+version does not supersede the embedded specification until the update has been
+fully applied to the Space.
 
 Project-specific information does not belong in this directory. It belongs in the corresponding directory under `projects/`.
 

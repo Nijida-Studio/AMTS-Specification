@@ -10,6 +10,8 @@ This Space publishes the official AMTS specification and simultaneously serves a
 
 The normative specification is stored under `specification/`.
 
+Its current version is declared in `specification/VERSION.md`.
+
 Space-wide shared knowledge and conventions belong in this file. Current state and recent changes belong in `CURRENT.md`.
 
 ## Shared Conventions

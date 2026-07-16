@@ -10,6 +10,9 @@ No projects have been added yet.
 
 ## Recent Changes
 
+- AMTS 1.10 introduced `specification/VERSION.md` as the explicit version
+  declaration and documented how explicitly requested updates are compared
+  with the public AMTS specification and applied to an existing Space.
 - AMTS 1.9 introduced shared and local context at Space and cross-project scope.
 - Initial AMTS Space created.
 - AMTS core specification established.
