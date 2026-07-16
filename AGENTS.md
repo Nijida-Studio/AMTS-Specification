@@ -9,7 +9,11 @@ Before working within this Space, initialize yourself using the AMTS specificati
 Read the following files in order:
 
 1. `specification/AGENTS.md`
-2. `CURRENT.md`
+2. `CONTEXT.md`
+3. `localcontext.md`, if it exists
+4. `projects/CONTEXT.md`
+5. `projects/localcontext.md`, if it exists
+6. `CURRENT.md`
 
 After completing the initialization, identify the project relevant to the current task.
 

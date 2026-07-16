@@ -4,6 +4,8 @@ Each project within an AMTS Space is stored as a separate subdirectory under `pr
 
 Projects SHOULD follow the standard structure defined by this specification.
 
+The files `projects/CONTEXT.md` and `projects/localcontext.md` apply across projects and are not project directories.
+
 The template under `specification/template/` is the normative reference implementation for creating new projects.
 
 ## Standard project structure

@@ -30,6 +30,14 @@ projects/<Project>/localreferences.md
 
 Each project maintains its own local references independently.
 
+## Relationship to local context
+
+`localcontext.md` and `projects/localcontext.md` contain structured local knowledge and conventions at Space and cross-project scope.
+
+`projects/<Project>/localreferences.md` identifies local source material associated with one project.
+
+Local path conventions that apply across projects SHOULD be recorded in `projects/localcontext.md` instead of being duplicated in each project's `localreferences.md`.
+
 ## Synchronization
 
 When an AMTS Space is shared, published, or synchronized, project-specific `localreferences.md` files MUST NOT be included by default.

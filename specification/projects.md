@@ -38,7 +38,20 @@ Project names SHOULD be stable and descriptive.
 
 The structure of a project is defined separately in `project-structure.md`.
 
-The file `projects/.keep` preserves the otherwise empty `projects/` directory when this reference implementation is published through Git. It is not a project and is not required by other AMTS Spaces.
+## Cross-project context
+
+The `projects` directory also contains files that apply across projects:
+
+```text
+projects/CONTEXT.md
+projects/localcontext.md (optional)
+```
+
+`projects/CONTEXT.md` contains shared cross-project knowledge and conventions.
+
+`projects/localcontext.md` contains installation-specific cross-project knowledge and conventions. It MUST NOT be synchronized by default.
+
+These files are not projects and do not change the rule that every subdirectory of `projects` represents one project.
 
 ## Project template
 
@@ -56,9 +69,10 @@ The project template SHOULD remain unchanged except when the AMTS specification 
 
 When working on a project, agents SHOULD:
 
-1. identify the appropriate project,
-2. read its project files,
-3. follow the project-specific conventions,
-4. update project documentation as work progresses.
+1. read the shared cross-project context and any available local cross-project context,
+2. identify the appropriate project,
+3. read its project files,
+4. follow the project-specific conventions,
+5. update project documentation as work progresses.
 
 Agents SHOULD avoid creating duplicate projects when an appropriate project already exists.

@@ -2,4 +2,6 @@
 !/chats/.keep
 *~
 .DS_Store
+/localcontext.md
+/projects/localcontext.md
 /projects/*/localreferences.md

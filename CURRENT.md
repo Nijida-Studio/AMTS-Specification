@@ -10,6 +10,7 @@ No projects have been added yet.
 
 ## Recent Changes
 
+- AMTS 1.9 introduced shared and local context at Space and cross-project scope.
 - Initial AMTS Space created.
 - AMTS core specification established.
 

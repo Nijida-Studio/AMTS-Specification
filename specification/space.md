@@ -10,7 +10,9 @@ An AMTS Space consists of the following top-level elements:
 
 ```text
 AGENTS.md
+CONTEXT.md
 CURRENT.md
+localcontext.md (optional)
 
 chats/
 projects/
@@ -26,6 +28,18 @@ Additional files and directories MAY be added when required by an application or
 The bootstrap entry point for agents and applications.
 
 This file identifies the directory as an AMTS Space and instructs agents where to find the AMTS specification.
+
+### CONTEXT.md
+
+Contains stable shared context that applies to the entire AMTS Space.
+
+Agents MUST read this file before `CURRENT.md` so that current information is interpreted within its stable context.
+
+### localcontext.md
+
+Optionally contains local context that applies to the entire AMTS Space.
+
+When this file exists, agents MUST read it after `CONTEXT.md` and before `CURRENT.md`.
 
 ### CURRENT.md
 
@@ -59,7 +73,7 @@ Applications SHOULD preserve the directory. When an AMTS Space is shared, publis
 
 When an AMTS Space is shared, published, or synchronized, the system used for that purpose SHOULD provide a mechanism for excluding local content as required by this specification.
 
-The mechanism depends on the system. For example, a Git-based AMTS Space typically uses a `.gitignore` file to exclude local conversations under `chats/` and project-specific `localreferences.md` files.
+The mechanism depends on the system. For example, a Git-based AMTS Space typically uses a `.gitignore` file to exclude local context files, local conversations under `chats/`, and project-specific `localreferences.md` files.
 
 A purely local AMTS Space that is not shared, published, or synchronized does not require a synchronization control file.
 

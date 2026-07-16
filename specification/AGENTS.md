@@ -7,17 +7,23 @@ Read the specification files in the order listed below.
 ## Required reading order
 
 1. `space.md`
-2. `current.md`
-3. `chats.md`
-4. `projects.md`
-5. `project-structure.md`
-6. `localreferences.md`
-7. `references.md`
+2. `context.md`
+3. `localcontext.md`
+4. `current.md`
+5. `chats.md`
+6. `projects.md`
+7. `project-structure.md`
+8. `localreferences.md`
+9. `references.md`
 
 After reading these files, return to the root of the AMTS Space and read:
 
-1. `CURRENT.md`
-2. the files of the relevant project under `projects/`
+1. `CONTEXT.md`
+2. `localcontext.md`, if it exists
+3. `projects/CONTEXT.md`
+4. `projects/localcontext.md`, if it exists
+5. `CURRENT.md`
+6. the files of the relevant project under `projects/`
 
 ## Purpose
 
@@ -25,6 +31,7 @@ The specification defines:
 
 * the structure of an AMTS Space,
 * the purpose of its files and directories,
+* how stable shared and local context is maintained,
 * how current work is communicated,
 * how local chats are stored,
 * how projects are organized,

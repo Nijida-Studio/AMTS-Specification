@@ -39,9 +39,13 @@ Applications MAY update this file automatically if they can do so without losing
 When entering an unfamiliar AMTS Space, an agent SHOULD:
 
 1. Read the AMTS specification.
-2. Read `CURRENT.md`.
-3. Identify the relevant project(s).
-4. Continue working using the project-specific information.
+2. Read `CONTEXT.md`.
+3. Read `localcontext.md` if it exists.
+4. Read `projects/CONTEXT.md`.
+5. Read `projects/localcontext.md` if it exists.
+6. Read `CURRENT.md`.
+7. Identify the relevant project(s).
+8. Continue working using the project-specific information.
 
 Agents SHOULD treat `CURRENT.md` as advisory information.
 
