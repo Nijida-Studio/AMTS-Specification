@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: ODTS Specification
+    url: https://github.com/Nijida-Studio/ODTS-Specification
+    about: The ODTS Specification is the authoritative source for current ODTS behavior.
+  - name: ODTS Documentation
+    url: https://github.com/Nijida-Studio/ODTS-Home
+    about: Human-readable guidance that may temporarily differ while an update is being synchronized.
