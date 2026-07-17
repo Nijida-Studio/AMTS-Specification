@@ -24,6 +24,9 @@ Describe the design philosophy of the project.
 
 Describe important development conventions and preferred practices.
 
+If the project follows a defined working model, describe how the team applies
+it and record any intentional deviations.
+
 ---
 
 ## Documentation Guidelines
@@ -35,6 +38,9 @@ Describe how project documentation should be maintained.
 ## Decision Making
 
 Describe how significant project decisions should be made and documented.
+
+Identify relevant responsibilities or roles when they are part of the team's
+working model.
 
 ---
 

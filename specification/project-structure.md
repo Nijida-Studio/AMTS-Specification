@@ -34,11 +34,19 @@ It provides an overview of additional information, outside of the specification.
 
 Describes the overall purpose, scope, and current understanding of the project.
 
+It also identifies project-specific dependencies on methods, frameworks,
+standards, or processes, including the applicable version and relevant shared
+resources when appropriate.
+
 This document should remain relatively stable over time.
 
 ### principles.md
 
 Contains long-term principles and conventions governing the project.
+
+When a project follows a defined working model, this file describes how the
+team applies that model, including project-specific practices,
+responsibilities, decision making, and intentional deviations.
 
 ### current-work.md
 
@@ -81,6 +89,9 @@ When using Git to share, publish, or synchronize an AMTS Space, project-specific
 Contains source material intentionally preserved as part of the project.
 
 Typical examples include selected conversations, meeting notes, documents, or other primary sources that should remain available to all collaborators.
+
+Normative or supporting material for a project's working method MAY be
+preserved here when it should remain available as shared project knowledge.
 
 ## Synchronization
 

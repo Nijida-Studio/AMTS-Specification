@@ -1,6 +1,6 @@
 # AMTS Version
 
-The AMTS version implemented by this specification is **1.10**.
+The AMTS version implemented by this specification is **1.10.1**.
 
 ## Purpose
 
@@ -41,6 +41,14 @@ application SHOULD:
 An update MUST preserve local context, conversations, project knowledge, and
 application-specific additions unless the newer specification explicitly
 requires a conflicting element to be migrated.
+
+## Version 1.10.1
+
+AMTS 1.10.1 clarifies how teams describe their working model through the
+existing context, principles, and references structure. Teams can identify a
+method or framework, its applicable version, their local application or
+deviations, responsibilities and decision practices, and the locations of
+normative or supporting resources without introducing a new required file.
 
 ## Version 1.10
 

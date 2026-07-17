@@ -45,6 +45,30 @@ Typical information includes:
 
 Information that applies to only one project belongs in that project's documentation.
 
+## Team working model
+
+A team MAY describe how it works through the existing context and project
+files. AMTS does not require a particular methodology or a separate team file.
+
+When a team follows a defined method, framework, or internal process, the
+description SHOULD identify:
+
+* the method, framework, or process,
+* its applicable version when relevant,
+* how the team applies it and any intentional deviations,
+* responsibilities and decision practices,
+* and the locations of normative and supporting resources.
+
+Working conventions for the entire Space belong in root `CONTEXT.md`.
+Conventions shared across projects belong in `projects/CONTEXT.md`.
+Information specific to one project belongs in that project's `CONTEXT.md` and
+`principles.md` files.
+
+Shared source material MAY be preserved in the relevant project's
+`references/` directory. Resources required by all collaborators SHOULD NOT be
+recorded only in `localreferences.md`, because that file is local to one
+installation and is not synchronized by default.
+
 ## Relationship to CURRENT.md
 
 Context files describe stable knowledge and SHOULD change less frequently than `CURRENT.md`.

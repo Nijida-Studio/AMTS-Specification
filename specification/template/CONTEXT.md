@@ -50,6 +50,10 @@ Describe the overall architecture or structure of the project.
 
 List important dependencies on other projects, specifications, standards, or technologies.
 
+When the project follows a defined method, framework, or process, identify it
+here together with its applicable version and the locations of normative or
+supporting resources.
+
 ---
 
 ## Long-term Vision

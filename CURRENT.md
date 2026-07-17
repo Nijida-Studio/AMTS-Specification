@@ -10,6 +10,9 @@ No projects have been added yet.
 
 ## Recent Changes
 
+- AMTS 1.10.1 clarified how teams describe their working model, applicable
+  method and version, local practices, responsibilities, and shared resources
+  through the existing context, principles, and references structure.
 - AMTS 1.10 introduced `specification/VERSION.md` as the explicit version
   declaration and documented how explicitly requested updates are compared
   with the public AMTS specification and applied to an existing Space.
